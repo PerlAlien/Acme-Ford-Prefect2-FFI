@@ -10,7 +10,7 @@ my %modules;
 my $post_diag;
 
 $modules{$_} = $_ for qw(
-  Acme::Alien::DontPanic
+  Acme::Alien::DontPanic2
   ExtUtils::MakeMaker
   FFI::CheckLib
   FFI::Platypus

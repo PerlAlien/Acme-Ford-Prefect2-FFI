@@ -23,7 +23,7 @@ use Acme::Alien::DontPanic2 ();
         die "seems to be the same version";
       }
     }
-    elsif(/^Acme::Alien::DontPanic\s*=\s*(.*)\s*$/)
+    elsif(/^Acme::Alien::DontPanic2\s*=\s*(.*)\s*$/)
     {
       my $old = $1;
       my $new = Acme::Alien::DontPanic2->VERSION;
@@ -64,4 +64,4 @@ sub run
 }
 
 run 'dzil', 'release';
-run 'cpanm', "Acme-Ford-Prefect-FFI-@{[ Alien::Build->VERSION . '00' ]}.tar.gz";
+run 'cpanm', "Acme-Ford-Prefect2-FFI-@{[ Alien::Build->VERSION . '00' ]}.tar.gz";
