@@ -1,4 +1,4 @@
-# Acme::Ford::Prefect2::FFI [![Build Status](https://secure.travis-ci.org/Perl5-Alien/Acme-Ford-Prefect2-FFI.png)](http://travis-ci.org/Perl5-Alien/Acme-Ford-Prefect2-FFI)
+# Acme::Ford::Prefect2::FFI [![Build Status](https://travis-ci.org/PerlAlien/Acme-Ford-Prefect2-FFI.svg)](http://travis-ci.org/PerlAlien/Acme-Ford-Prefect2-FFI)
 
 FFI test module for Alien::Base
 
